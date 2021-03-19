@@ -1,0 +1,37 @@
+.sidebar-static {
+    position: relative;
+    height: 100vh !important;
+    margin-left: -15px !important;
+}
+
+.sidebar-scroll {
+    position: relative;
+    height: 100% !important;
+    margin-left: -15px !important;
+}
+
+.btn-logout {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 12%;
+    margin-bottom: 5%;
+}
+
+.btn-logout {
+    background-color: #8c9be4 !important;
+    border-color: #8c9be4 !important;
+}
+
+.btn-img-logout {
+    position: absolute;
+    left: 0;
+    margin-left: 5px;
+}
+
+@media (max-width: 767px) {
+    .sidebar-static, .sidebar-scroll {
+        margin-left: 15px !important;
+        display: none;
+    }
+}

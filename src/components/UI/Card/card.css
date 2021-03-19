@@ -1,0 +1,11 @@
+.card-title {
+    font-weight: bold !important;
+}
+
+.badge {
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+    padding-bottom: 7px !important;
+    border-radius: 25px !important;
+    margin: 3px !important;
+}

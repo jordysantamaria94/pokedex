@@ -1,0 +1,34 @@
+.search-input {
+    border: 0px solid !important;
+    border-radius: 25px !important;
+    margin-right: 5% !important;
+}
+
+.search-full-input {
+    border: 0px solid !important;
+    border-radius: 25px !important;
+    margin-right: 5% !important;
+}
+
+.search-input::placeholder {
+    color: #40415e80;
+}
+
+.form-search {
+    padding-left: 5% !important;
+}
+
+.search-btn {
+    border: 0px solid !important;
+    border-radius: 25px !important;
+    margin-right: 5% !important;
+    z-index: 10%;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 767px) {
+    .search-input {
+        margin-left: 20% !important;
+    }
+}

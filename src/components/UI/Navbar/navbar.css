@@ -1,0 +1,20 @@
+.navbar-light .navbar-toggler {
+    border-color: transparent !important;
+    color: white !important;
+    display: none !important;
+}
+
+.navbar {
+    height: 30% !important;
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    .navbar {
+        display: block !important;
+    }
+
+    .navbar-brand {
+        position: relative !important;
+    }
+}
